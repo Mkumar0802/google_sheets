@@ -13,9 +13,6 @@ function App() {
   const [transactions, setTransactions] = useState('');
   const [remarks,setRemarks] = useState('');
 
-
-  
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -28,10 +25,7 @@ function App() {
       )
       .then((response) => {
         console.log(response);
-        
       });
-      
-      
   };
 
   return (
@@ -69,18 +63,8 @@ function App() {
       </Form>
     
     </Container>
-
-
-
   );
 }
-
-
-
-
-
-
-
 
 
 
